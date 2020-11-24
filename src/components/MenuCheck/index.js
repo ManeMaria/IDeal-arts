@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { Sections } from '../Header/styles';
 
 const Menu = styled.div`
-  width: 78px;
-  height: 78px;
-  margin: 10px auto 
+  width: 14vw;
+  height: 10vh;
+  margin: auto;
   position: relative;
 
   label {
@@ -27,10 +27,10 @@ const Menu = styled.div`
       background: transparent;
     }
     &:checked + span:after {
-      transform: translate(0px, -20px) rotate(-45deg);
+      transform: translate(0px, -15px) rotate(-45deg);
     }
     &:checked + span:before {
-      transform: translate(0px, 20px) rotate(45deg);
+      transform: translate(0px, 15px) rotate(45deg);
     }
     &:checked ~ nav {
       height: 400px;
@@ -44,30 +44,30 @@ const Menu = styled.div`
     }
   }
   span {
-    width: 60px;
-    height: 8px;
+    width: 10vw;
+    height: 1vh;
     background: #eff3f5;
     position: absolute;
-    top: 35px;
-    left: 10px;
+    top: 43%;
+    left: 7px;
     transition: all 0.3s linear;
   }
   span::after {
     content: ' ';
-    width: 60px;
-    height: 8px;
+    width: 10vw;
+    height: 1vh;
     background: #eff3f5;
     position: absolute;
-    bottom: -20px;
+    bottom: -15px;
     transition: all 0.3s linear;
   }
   span::before {
     content: ' ';
-    width: 60px;
-    height: 8px;
+    width: 10vw;
+    height: 1vh;
     background: #eff3f5;
     position: absolute;
-    top: -20px;
+    top: -15px;
     transition: all 0.3s linear;
   }
 

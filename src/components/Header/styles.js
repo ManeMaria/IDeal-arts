@@ -2,13 +2,14 @@ import styled from 'styled-components';
 import bS from '../../assets/logos/backStyle.png';
 
 export const Container = styled.div`
-  height: 700px;
+  height: 100vh;
   width: 100%;
   margin: 0 auto;
   background: #eff3f5;
   /**  a cor de fundo fundo será aqui */
   position: relative;
   @media (max-width: 720px) {
+    height: 85vh;
     margin: 0 auto;
     width: 100vw;
     background: none;
@@ -89,9 +90,9 @@ export const ImgBanner = styled.img`
   height: 600px;
   @media (max-width: 720px) {
     position: static;
-    margin-top: 50px;
-    width: 250px;
-    height: 500px;
+    margin-top: 5%;
+    width: 30vw;
+    height: 65vh;
   }
   @media (max-width: 1080px) {
     width: 200px;
