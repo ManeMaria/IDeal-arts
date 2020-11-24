@@ -9,8 +9,10 @@ export const Container = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  @media (max-width: 720px) {
+  @media (max-width: 600px) {
     display: grid;
+    row-gap: 1%;
+    background: #fff;
   }
 `;
 
@@ -50,6 +52,11 @@ export const DivCarousel = styled.div`
       opacity: 1;
     }
   }
+  @media (max-width: 600px) {
+    &::before {
+      display: none;
+    }
+  }
 
   @media (max-width: 720px) {
     height: 100%;
@@ -84,9 +91,9 @@ export const ModalContent = styled.div`
   display: flex;
   align-items: center;
   overflow: hidden;
-  @media (min-width: 720px) {
-    width: 60vw;
-    height: 60vh;
+  @media (max-width: 600px) {
+    width: 85vw;
+    height: 85vh;
   }
 
   @media (min-width: 1080px) {
@@ -155,6 +162,9 @@ export const GoRight = styled.button.attrs({
   }
   &:focus {
     outline: none;
+  }
+  @media (max-width: 600px) {
+    right: 4%;
   }
   @media (max-width: 1080px) {
     img {
