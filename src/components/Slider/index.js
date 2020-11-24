@@ -10,7 +10,11 @@ import image7 from '../../assets/image/ur1.jpg';
 import image8 from '../../assets/image/sort.jpg';
 import { Container, DivCarousel } from './styles';
 
-function SlideShow() {
+function SlideShow({ visible, interval, controls, indicators }) {
+  /** recebe as propriedades dadas, se nenhuma propriedade for dada,
+   * o carousel usa os padrão 'https://react-bootstrap.github.io/components/carousel/#api', o mesmo é configurado para o estilo.
+   */
+
   const images = [
     image1,
     image2,
@@ -23,10 +27,10 @@ function SlideShow() {
   ];
 
   return (
-    <Container>
-      <Carousel controls={false} fade indicators={false}>
+    <Container visible={visible}>
+      <Carousel controls={controls} fade indicators={indicators}>
         {images.map((img, index) => (
-          <Carousel.Item interval={700} key={index}>
+          <Carousel.Item interval={interval} key={index}>
             <DivCarousel>
               <img
                 src={img}

@@ -1,7 +1,8 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  display: none;
+  display: ${(props) => props.visible || 'block'};
+
   @media (max-width: 720px) {
     display: block;
     height: 100vh;
@@ -9,7 +10,6 @@ export const Container = styled.div`
   }
 `;
 export const DivCarousel = styled.div`
-  display: none;
   @media (max-width: 720px) {
     display: block;
     width: 300px;

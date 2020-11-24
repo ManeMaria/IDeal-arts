@@ -38,5 +38,9 @@ module.exports = {
     'jsx-a11y/label-has-associated-control': 'off',
     'react/jsx-wrap-multilines': 'off',
     'react/no-array-index-key': 'off',
+    'no-unused-vars': 'off',
+    'react/jsx-indent': 'off',
+    indent: 'off',
+    eqeqeq: 'off',
   },
 };

@@ -18,16 +18,20 @@ import SlideShow from '../Slider/index';
 function Header() {
   return (
     <Container id="#">
-      <SlideShow />
+      <SlideShow
+        visible="none"
+        interval={700}
+        controls={false}
+        indicators={false}
+        positionImg={null}
+      />
       <Content>
         <DivMenu>
           <MenuCheck />
         </DivMenu>
-
         <Navigation>
           <LogoHeader src={logoBlack} />
           <span />
-
           {/** para criar um pseudo elemento e dá espaço entre os itens */}
           <Sections href="#">About</Sections>
           <Sections href="#">Skills</Sections>
