@@ -77,8 +77,8 @@ export const Modal = styled.div`
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.4);
-  @media (max-width: 720px) {
-    width: 100vw;
+  @media (max-width: 600px) {
+    width: 100%;
     height: 100vh;
   }
 `;
@@ -91,9 +91,11 @@ export const ModalContent = styled.div`
   display: flex;
   align-items: center;
   overflow: hidden;
+
   @media (max-width: 600px) {
-    width: 85vw;
-    height: 85vh;
+    margin-top: 25%;
+    width: 90vw;
+    height: 60vh;
   }
 
   @media (min-width: 1080px) {
@@ -124,8 +126,14 @@ export const ButtonCloseModal = styled.span`
   &:hover {
     &::after {
       color: #000;
-
       cursor: pointer;
+    }
+  }
+  @media (max-width: 600px) {
+    &::after {
+      margin-left: 0%;
+      font-size: 65px;
+      color: #000;
     }
   }
   @media (max-width: 1080px) {
@@ -164,7 +172,7 @@ export const GoRight = styled.button.attrs({
     outline: none;
   }
   @media (max-width: 600px) {
-    right: 4%;
+    right: 7vw;
   }
   @media (max-width: 1080px) {
     img {
