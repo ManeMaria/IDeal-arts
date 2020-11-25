@@ -93,7 +93,7 @@ export const ModalContent = styled.div`
   overflow: hidden;
 
   @media (max-width: 600px) {
-    margin-top: 25%;
+    margin: auto;
     width: 90vw;
     height: 60vh;
   }
