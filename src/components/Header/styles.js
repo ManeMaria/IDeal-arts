@@ -20,11 +20,12 @@ export const DivMenu = styled.div`
   /** esta div regula a posição do menu versão mobile */
   display: none;
   @media (max-width: 720px) {
-    position: absolute;
-    left: 80%;
+    z-index: 1;
+    position: fixed;
+    left: 79%;
     margin: 2% auto 0 auto;
     display: block;
-    height: 18%;
+    height: 12%;
     width: 20%;
   }
 `;

@@ -13,7 +13,6 @@ const Menu = styled.div`
     height: 100%;
     background: #000;
     position: absolute;
-
     transition: all 0.3s linear;
   }
   input {
@@ -38,7 +37,7 @@ const Menu = styled.div`
       background: #fff;
       box-shadow: -5px 3px 10px rgba(0, 0, 0, 0.4);
       a {
-        font-size: 25px;
+        font-size: 20px;
       }
     }
   }
@@ -75,7 +74,7 @@ const Menu = styled.div`
     top: 55px;
     position: absolute;
     right: -30px;
-    height: 40vh;
+    height: 70vh;
     width: 0;
     display: grid;
     overflow: hidden;
