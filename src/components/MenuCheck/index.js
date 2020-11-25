@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import { Sections } from '../Header/styles';
 
 const Menu = styled.div`
-  width: 70%;
+  width: 65%;
   height: 65%;
   margin: -20% 0 0 30%;
   position: relative;

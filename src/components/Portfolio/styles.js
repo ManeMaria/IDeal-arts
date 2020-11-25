@@ -11,7 +11,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   @media (max-width: 600px) {
     display: grid;
-    row-gap: 1%;
+
     background: #fff;
   }
 `;
