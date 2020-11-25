@@ -21,11 +21,11 @@ export const DivMenu = styled.div`
   display: none;
   @media (max-width: 720px) {
     position: absolute;
-    left: 76%;
-    margin: 10px auto 0 auto;
+    left: 80%;
+    margin: 2% auto 0 auto;
     display: block;
-    height: 78px;
-    width: 78px;
+    height: 18%;
+    width: 20%;
   }
 `;
 
