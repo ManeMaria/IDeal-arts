@@ -11,7 +11,7 @@ export const Container = styled.div`
     a {
       display: flex;
       align-self: center;
-      border: 6px solid #000;
+      border: 3px solid #000;
       width: 73%;
       height: 57%;
       border-radius: 50px;
@@ -29,6 +29,12 @@ export const SocialImg = styled.img`
   width: ${(props) => props.width || 'auto'};
   height: ${(props) => props.width || 'auto'};
   border-radius: ${(props) => props.radius || 0};
-  margin-left: -1%;
-  margin-top: -1%;
+  margin-left: -0.5%;
+  margin-top: 0.5%;
+  @media (max-width: 360px) {
+    margin-top: 0.5%;
+    margin-left: -1%;
+    width: 42px;
+    height: 42px;
+  }
 `;

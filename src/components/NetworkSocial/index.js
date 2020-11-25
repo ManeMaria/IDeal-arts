@@ -3,7 +3,7 @@ import { Container, SocialImg } from './styles';
 
 function NetworkSocial() {
   return (
-    <Container>
+    <Container id="#redes">
       <a href="https://github.com/ManeMaria">
         <SocialImg
           width="46px"
@@ -14,7 +14,7 @@ function NetworkSocial() {
       </a>
       <a href="https://github.com/ManeMaria">
         <SocialImg
-          radius="50%"
+          radius="45%"
           width="46px"
           src="https://img.icons8.com/android/96/000000/google-plus.png"
           alt="gamil"
@@ -23,7 +23,7 @@ function NetworkSocial() {
       </a>
       <a href="https://github.com/ManeMaria">
         <SocialImg
-          radius="50%"
+          radius="45%"
           width="46px"
           src="https://img.icons8.com/metro/52/000000/instagram.png"
           alt="instagram"

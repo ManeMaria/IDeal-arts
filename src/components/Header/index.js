@@ -35,7 +35,7 @@ function Header() {
           {/** para criar um pseudo elemento e dá espaço entre os itens */}
           <Sections href="#">About</Sections>
           <Sections href="#">Skills</Sections>
-          <Sections href="#">Experiance</Sections>
+          <Sections href="#contact">contato</Sections>
           <Sections href="#portfolio">Portfolio</Sections>
         </Navigation>
         <Banner>

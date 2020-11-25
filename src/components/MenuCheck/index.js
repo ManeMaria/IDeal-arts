@@ -26,10 +26,10 @@ const Menu = styled.div`
       background: transparent;
     }
     &:checked + span:after {
-      transform: translate(0px, -15px) rotate(-45deg);
+      transform: translate(0px, -2vh) rotate(-45deg);
     }
     &:checked + span:before {
-      transform: translate(0px, 15px) rotate(45deg);
+      transform: translate(0px, 2vh) rotate(45deg);
     }
     &:checked ~ nav {
       width: 200px;
@@ -56,7 +56,7 @@ const Menu = styled.div`
     height: 0.75vh;
     background: #eff3f5;
     position: absolute;
-    bottom: -15px;
+    bottom: -2vh;
     transition: all 0.3s linear;
   }
   span::before {
@@ -65,7 +65,7 @@ const Menu = styled.div`
     height: 0.75vh;
     background: #eff3f5;
     position: absolute;
-    top: -15px;
+    top: -2vh;
     transition: all 0.3s linear;
   }
 
@@ -91,7 +91,7 @@ function MenuCheck() {
       <nav className="nav hide">
         <Sections href="#">About</Sections>
         <Sections href="#footer">Skills</Sections>
-        <Sections href="#">Experiance</Sections>
+        <Sections href="#redes">Contact</Sections>
         <Sections href="#portfolio">Portfolio</Sections>
       </nav>
     </Menu>
