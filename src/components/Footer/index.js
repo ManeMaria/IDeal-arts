@@ -25,9 +25,9 @@ function Footer() {
             src="https://img.icons8.com/fluent-systems-filled/24/000000/instagram.png"
             alt="instagram"
           />
-          <p>Instagram</p>
+          <p>@idartesgraficas</p>
         </LinkMedias>
-        <LinkGitHub href="https://github.com/ManeMaria">
+        <LinkGitHub href="https://instagram.com/idartesgraficas?igshid=1lku63m7v9scn">
           <img
             src="https://img.icons8.com/fluent-systems-filled/24/000000/github.png"
             alt="iconGitHub"

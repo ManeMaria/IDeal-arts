@@ -18,7 +18,7 @@ export const Container = styled.div`
       margin: auto 10%;
       position: relative;
       p {
-        margin: 2% 50%;
+        margin: 2% 23%;
         color: #000;
         font-weight: 500;
       }
@@ -33,8 +33,4 @@ export const SocialImg = styled.img`
   margin-left: -0.5%;
   margin-top: 0%;
   position: absolute;
-  @media (max-width: 360px) {
-    margin-top: 0;
-    margin-left: -1%;
-  }
 `;

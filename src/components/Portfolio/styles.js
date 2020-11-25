@@ -109,7 +109,7 @@ export const ButtonCloseModal = styled.span`
   background: none;
   width: 40px;
   height: 40px;
-  top: 0;
+  top: -18px;
   left: 85%;
   margin: 2% auto;
   transition: all 0.3s linear;

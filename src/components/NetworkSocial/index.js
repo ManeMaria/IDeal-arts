@@ -25,15 +25,15 @@ function NetworkSocial() {
           src="https://img.icons8.com/metro/52/000000/instagram.png"
           alt="instagram"
         />
-        <p>instagram</p>
+        <p>@idartesgraficas</p>
       </a>
-      <a href="https://github.com/ManeMaria">
+      <a href="https://whats.link/oramentoeartes">
         <SocialImg
           radius="45%"
           src="https://img.icons8.com/fluent-systems-filled/96/000000/whatsapp.png"
           alt="instagram"
         />
-        <p>instagram</p>
+        <p>Orçamento por whatsapp</p>
       </a>
     </Container>
   );
