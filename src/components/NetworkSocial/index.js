@@ -13,7 +13,7 @@ function NetworkSocial() {
       </a>
       <a href="https://github.com/ManeMaria">
         <SocialImg
-          width="76px"
+          width="56px"
           src="https://img.icons8.com/android/96/000000/google-plus.png"
           alt="gamil"
         />

@@ -3,9 +3,9 @@ import styled from 'styled-components';
 import { Sections } from '../Header/styles';
 
 const Menu = styled.div`
-  width: 14vw;
-  height: 10vh;
-  margin: auto;
+  width: 70%;
+  height: 65%;
+  margin: -20% 0 0 30%;
   position: relative;
 
   label {
@@ -33,29 +33,28 @@ const Menu = styled.div`
       transform: translate(0px, 15px) rotate(45deg);
     }
     &:checked ~ nav {
-      height: 400px;
-
+      width: 200px;
       border: none;
       background: #fff;
       box-shadow: -5px 3px 10px rgba(0, 0, 0, 0.4);
       a {
-        font-size: 30px;
+        font-size: 25px;
       }
     }
   }
   span {
     width: 10vw;
-    height: 1vh;
+    height: 0.75vh;
     background: #eff3f5;
     position: absolute;
     top: 43%;
-    left: 7px;
+    left: 5.5px;
     transition: all 0.3s linear;
   }
   span::after {
     content: ' ';
     width: 10vw;
-    height: 1vh;
+    height: 0.75vh;
     background: #eff3f5;
     position: absolute;
     bottom: -15px;
@@ -64,7 +63,7 @@ const Menu = styled.div`
   span::before {
     content: ' ';
     width: 10vw;
-    height: 1vh;
+    height: 0.75vh;
     background: #eff3f5;
     position: absolute;
     top: -15px;
@@ -73,14 +72,14 @@ const Menu = styled.div`
 
   nav {
     z-index: 1;
-    top: 90px;
+    top: 55px;
     position: absolute;
-    right: 10px;
-    height: 0px;
-    width: 210px;
+    right: -30px;
+    height: 40vh;
+    width: 0;
     display: grid;
     overflow: hidden;
-    transition: height 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
   }
 `;
 

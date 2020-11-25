@@ -90,7 +90,7 @@ export const ImgBanner = styled.img`
   height: 600px;
   @media (max-width: 720px) {
     position: static;
-    margin-top: 5%;
+    margin-top: 0;
     width: 30vw;
     height: 65vh;
   }
