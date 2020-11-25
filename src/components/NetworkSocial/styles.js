@@ -5,19 +5,20 @@ export const Container = styled.div`
   @media (max-width: 720px) {
     display: grid;
     width: 100vw;
-    height: 40vh;
+    height: 50vh;
     margin: 'auto';
 
     a {
       display: flex;
       align-self: center;
-      border: 3px solid #000;
+      border: 3.5px solid #000;
       width: 73%;
       height: 57%;
       border-radius: 50px;
       margin: auto 10%;
+      position: relative;
       p {
-        margin: 2% 15%;
+        margin: 2% 50%;
         color: #000;
         font-weight: 500;
       }
@@ -26,15 +27,14 @@ export const Container = styled.div`
 `;
 
 export const SocialImg = styled.img`
-  width: ${(props) => props.width || 'auto'};
-  height: ${(props) => props.width || 'auto'};
+  width: 20%;
+  height: 102%;
   border-radius: ${(props) => props.radius || 0};
   margin-left: -0.5%;
-  margin-top: 0.5%;
+  margin-top: 0%;
+  position: absolute;
   @media (max-width: 360px) {
-    margin-top: 0.5%;
+    margin-top: 0;
     margin-left: -1%;
-    width: 42px;
-    height: 42px;
   }
 `;

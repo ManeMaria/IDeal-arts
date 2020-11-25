@@ -74,7 +74,7 @@ const Menu = styled.div`
     top: 55px;
     position: absolute;
     right: -30px;
-    height: 70vh;
+    height: 80vh;
     width: 0;
     display: grid;
     overflow: hidden;
