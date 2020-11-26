@@ -1,0 +1,40 @@
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.pre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+.pre::after{
+    content: url('./favicon-32x32.png');
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+    
+}
+.spiner{
+    border: 12px solid rgba( 0,0,0, 0.2);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border-left: 12px solid #000;
+    animation: rot  0.5s linear infinite;
+
+    
+}
+@keyframes rot {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
