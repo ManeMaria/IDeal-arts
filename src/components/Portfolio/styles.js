@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 import iconZoomWhite from '../../assets/icons/002.png';
 
 export const Container = styled.div`
@@ -11,13 +11,12 @@ export const Container = styled.div`
   flex-wrap: wrap;
   @media (max-width: 600px) {
     display: grid;
-
     background: #fff;
   }
 `;
 
 export const DivCarousel = styled.div`
-  margin: 0.5%;
+  margin: auto;
   width: 20%;
   height: 20%;
   position: relative;
@@ -96,11 +95,6 @@ export const ModalContent = styled.div`
     margin: 15% auto auto auto;
     width: 90vw;
     height: 60vh;
-  }
-
-  @media (min-width: 1080px) {
-    width: 60vw;
-    height: 20vh;
   }
 `;
 export const ButtonCloseModal = styled.span`

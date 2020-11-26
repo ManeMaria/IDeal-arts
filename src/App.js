@@ -1,6 +1,5 @@
 import React from 'react';
 import styled from 'styled-components';
-import Home from './components/Home/index';
 import Header from './components/Header/index';
 import Footer from './components/Footer/index';
 import GlobalStyles from './Styles/Global';
@@ -20,7 +19,7 @@ function App() {
       <Header />
       <NetworkSocial />
       {/** incluí esse comp diretamente, para não interferir no fluxo da página */}
-      <Home />
+
       <Portfolio />
       <Footer />
     </Div>

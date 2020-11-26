@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import {
   Container,
   Content,
@@ -16,6 +16,11 @@ import MenuCheck from '../MenuCheck/index';
 import SlideShow from '../Slider/index';
 
 function Header() {
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+  }, []);
+
   return (
     <Container id="#">
       <SlideShow
@@ -39,7 +44,7 @@ function Header() {
           <Sections href="#portfolio">Portfolio</Sections>
         </Navigation>
         <Banner>
-          <ImgBanner src={logoSCar} alt="banner" />
+          <ImgBanner alt="banner" visible={loading} />
           <Spiner />
         </Banner>
       </Content>

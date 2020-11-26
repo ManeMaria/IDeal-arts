@@ -1,11 +1,12 @@
 import styled from 'styled-components';
 import bS from '../../assets/logos/backStyle.png';
+import logoDisplaySmall from '../../assets/logos/logo-id_optimized.png';
 
 export const Container = styled.div`
   height: 100vh;
   width: 100%;
   margin: 0 auto;
-  background: #eff3f5;
+  background: rgba(3, 3, 3, 0.3);
   /**  a cor de fundo fundo será aqui */
   position: relative;
   @media (max-width: 720px) {
@@ -48,8 +49,8 @@ export const Navigation = styled.nav`
 
   span::before {
     content: ' ';
-    margin-left: 300px;
-    max-width: 400px;
+    margin-left: 400px;
+    max-width: 300px;
   }
   @media (max-width: 720px) {
     display: none;
@@ -83,12 +84,18 @@ export const Banner = styled.div`
     }
   }
 `;
-export const ImgBanner = styled.img`
+export const ImgBanner = styled.img.attrs({
+  src: ` ${logoDisplaySmall}`,
+})`
   display: block;
   position: absolute;
-  left: 350px;
-  width: 300px;
-  height: 600px;
+  top: -15px;
+  left: 375px;
+  width: 200px;
+  height: 400px;
+  opacity: ${(props) => (props.visible ? '1' : '0')};
+  transition: opacity 2s linear;
+
   @media (max-width: 720px) {
     position: static;
     margin-top: 0;

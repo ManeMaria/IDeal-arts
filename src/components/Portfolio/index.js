@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import image1 from '../../assets/image/açai-port.jpg';
 import image2 from '../../assets/image/anuncio.jpg';
 import image3 from '../../assets/image/camp.png';
@@ -7,6 +7,24 @@ import image5 from '../../assets/image/divul.png';
 import image6 from '../../assets/image/photo.jpg';
 import image7 from '../../assets/image/ur1.jpg';
 import image8 from '../../assets/image/sort.jpg';
+import image9 from '../../assets/image/a-d-c-c-j.png';
+import image10 from '../../assets/image/A-d-c.png';
+import image11 from '../../assets/image/belem.jpg';
+import image12 from '../../assets/image/c-m.jpg';
+import image13 from '../../assets/image/c-o-p.jpg';
+import image14 from '../../assets/image/c-o.jpg';
+import image15 from '../../assets/image/campanha.jpg';
+import image16 from '../../assets/image/campanha26.jpg';
+import image17 from '../../assets/image/campanhaoração0003.jpg';
+import image18 from '../../assets/image/consagracao.jpg';
+import image19 from '../../assets/image/convite.jpg';
+import image20 from '../../assets/image/culto.jpg';
+import image21 from '../../assets/image/festa.png';
+import image22 from '../../assets/image/GPGE.jpg';
+import image23 from '../../assets/image/o-p.jpg';
+import image24 from '../../assets/image/oração05.jpg';
+import image25 from '../../assets/image/oração-para-MOC.jpg';
+import image26 from '../../assets/image/Prancheta2culto_.png';
 
 import {
   Container,
@@ -30,6 +48,23 @@ function Portfolio() {
     image6,
     image7,
     image8,
+    image9,
+    image10,
+    image11,
+    image12,
+    image13,
+    image14,
+    image15,
+    image16,
+    image17,
+    image18,
+    image19,
+    image20,
+    image21,
+    image22,
+    image23,
+    image24,
+    image25,
   ];
 
   const [position, setPosition] = useState(0);
