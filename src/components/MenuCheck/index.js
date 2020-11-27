@@ -89,8 +89,8 @@ function MenuCheck() {
       <input type="checkbox" id="check" />
       <span />
       <nav className="nav hide">
-        <Sections href="#">About</Sections>
-        <Sections href="#footer">Skills</Sections>
+        <Sections href="#about">About</Sections>
+
         <Sections href="#redes">Contact</Sections>
         <Sections href="#portfolio">Portfolio</Sections>
       </nav>

@@ -8,10 +8,15 @@ export default function Spiner() {
   const [valueP4, setValueP4] = useState(0);
 
   function setVP1() {
-    let revalue = valueP1;
+    /* a função é chamada na hora da montagem do componente -
+     * ela acrescenta no state da variável correspondente a porcentagem escolhida na -
+     * candicional.
+     */
 
+    let revalue = valueP1;
     const id = setInterval(() => {
-      if (revalue >= 50) {
+      if (revalue >= 80) {
+        /* para alterar as porcentagens, basta alterar o número da condicional */
         clearInterval(id);
       }
       setValueP1(revalue++);
@@ -31,7 +36,7 @@ export default function Spiner() {
     let revalue = valueP3;
 
     const id = setInterval(() => {
-      if (revalue >= 38) {
+      if (revalue >= 48) {
         clearInterval(id);
       }
       setValueP3(revalue++);
@@ -40,7 +45,7 @@ export default function Spiner() {
   function setVP4() {
     let revalue = valueP4;
     const id = setInterval(() => {
-      if (revalue >= 63) {
+      if (revalue >= 35) {
         clearInterval(id);
       }
       setValueP4(revalue++);
@@ -67,7 +72,7 @@ export default function Spiner() {
         </NumberDiv>
       </Sspiner>
       <Sspiner className="p2" top="370px" left="250px">
-        <Svg width={150} height={150} per="75">
+        <Svg width={150} height={150} per={valueP2}>
           <circle r={70} cx={65} cy={65} />
           <circle r={70} cx={65} cy={65} />
         </Svg>
@@ -84,12 +89,12 @@ export default function Spiner() {
         </Svg>
         <NumberDiv>
           <span>
-            <h2>{valueP3}</h2> %<p>Medias</p>
+            <h2>{valueP3}</h2> %<p>Coreldraw</p>
           </span>
         </NumberDiv>
       </Sspiner>
       <Sspiner className="p4" top="370px" left="775px">
-        <Svg width={150} height={150} per="63">
+        <Svg width={150} height={150} per={valueP4}>
           <circle r={70} cx={65} cy={65} />
           <circle r={70} cx={65} cy={65} />
         </Svg>

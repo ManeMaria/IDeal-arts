@@ -3,7 +3,7 @@ import iconZoomWhite from '../../assets/icons/002.png';
 
 export const Container = styled.div`
   background: #333;
-  margin: 100px auto;
+  margin: 100px auto 0 auto;
   width: 100%;
   height: 100%;
   display: flex;

@@ -4,20 +4,20 @@ import { Container, SocialImg } from './styles';
 function NetworkSocial() {
   return (
     <Container id="redes">
-      <a href="https://github.com/ManeMaria">
+      <a href="https://www.facebook.com/ingo.miranda">
         <SocialImg
           src="https://img.icons8.com/android/96/000000/facebook-new.png"
           alt="facebook"
         />
-        <p>facebook</p>
+        <p>/ingo.miranda</p>
       </a>
-      <a href="https://github.com/ManeMaria">
+      <a href="https://gmail.com">
         <SocialImg
           radius="45%"
           src="https://img.icons8.com/android/96/000000/google-plus.png"
-          alt="gamil"
+          alt="gmail"
         />
-        <p>gmail</p>
+        <p>idartegraficas@gmail.com</p>
       </a>
       <a href="https://github.com/ManeMaria">
         <SocialImg

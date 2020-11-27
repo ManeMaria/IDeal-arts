@@ -6,7 +6,7 @@ export const Container = styled.div`
   height: 100vh;
   width: 100%;
   margin: 0 auto;
-  background: rgba(3, 3, 3, 0.3);
+  background: linear-gradient(45deg, #929292, #b5b5b5, #dadad9);
   /**  a cor de fundo fundo será aqui */
   position: relative;
   @media (max-width: 720px) {

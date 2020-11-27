@@ -1,8 +1,14 @@
 import React from 'react';
-import Container from './styles';
+import { Container, Content } from './styles';
 
 function Home() {
-  return <Container />;
+  return (
+    <Container id="about">
+      <Content>
+        <p>falar sobre você</p>
+      </Content>
+    </Container>
+  );
 }
 
 export default Home;

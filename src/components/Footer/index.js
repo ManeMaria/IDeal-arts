@@ -6,28 +6,37 @@ function Footer() {
   return (
     <Container id="footer">
       <Content>
-        <LinkMedias href="https://github.com/ManeMaria">
+        <LinkMedias href="https://www.facebook.com/ingo.miranda" target="blank">
           <img
             src="https://img.icons8.com/android/24/000000/facebook-new.png"
             alt="facebook"
           />
-          <p>facebook</p>
+          <p>/ingo.miranda</p>
         </LinkMedias>
-        <LinkMedias href="https://github.com/ManeMaria">
+        <LinkMedias href="https://gmail.com" target="blank">
           <img
             src="https://img.icons8.com/android/24/000000/google-plus.png"
             alt="gamil"
           />
-          <p> Gmail</p>
+          <p>idartegraficas@gmail.com</p>
         </LinkMedias>
-        <LinkMedias href="https://github.com/ManeMaria">
+        <LinkMedias href="https://github.com/ManeMaria" target="blank">
           <img
-            src="https://img.icons8.com/fluent-systems-filled/24/000000/instagram.png"
+            src="https://img.icons8.com/metro/52/000000/instagram.png"
             alt="instagram"
           />
           <p>@idartesgraficas</p>
         </LinkMedias>
-        <LinkGitHub href="https://instagram.com/idartesgraficas?igshid=1lku63m7v9scn">
+
+        <LinkMedias href="https://whats.link/oramentoeartes">
+          <img
+            src="https://img.icons8.com/material-sharp/24/000000/whatsapp.png"
+            alt="wpp"
+          />
+          <p>Orçamento por whatsapp</p>
+        </LinkMedias>
+
+        <LinkGitHub href="https://github.com/ManeMaria" target="blank">
           <img
             src="https://img.icons8.com/fluent-systems-filled/24/000000/github.png"
             alt="iconGitHub"

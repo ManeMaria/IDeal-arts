@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.footer`
   height: 300px;
-  margin-top: 50px;
+
   @media (max-width: 720px) {
     display: none;
   }
@@ -11,10 +11,11 @@ export const Content = styled.div`
   display: flex;
   position: relative;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   margin: 0 auto;
   background: #fff;
-  width: 700px;
+  width: 100%;
   height: 100%;
 `;
 export const LinkGitHub = styled.a`

@@ -18,6 +18,7 @@ export const Container = styled.div`
       margin: auto 10%;
       position: relative;
       p {
+        font-size: 13.5px;
         margin: 2% 23%;
         color: #000;
         font-weight: 500;

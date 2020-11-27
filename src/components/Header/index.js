@@ -25,7 +25,7 @@ function Header() {
     <Container id="#">
       <SlideShow
         visible="none"
-        interval={700}
+        interval={1500}
         controls={false}
         indicators={false}
         positionImg={null}
@@ -38,8 +38,8 @@ function Header() {
           <LogoHeader src={logoBlack} />
           <span />
           {/** para criar um pseudo elemento e dá espaço entre os itens */}
-          <Sections href="#">About</Sections>
-          <Sections href="#">Skills</Sections>
+          <Sections href="#about">About</Sections>
+
           <Sections href="#contact">contato</Sections>
           <Sections href="#portfolio">Portfolio</Sections>
         </Navigation>
