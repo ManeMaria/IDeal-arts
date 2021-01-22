@@ -4,7 +4,7 @@ export const Container = styled.div`
   display: none;
   @media (max-width: 720px) {
     display: grid;
-    width: 100vw;
+    width: 80vw;
     height: 50vh;
     margin: 'auto';
 
@@ -18,8 +18,8 @@ export const Container = styled.div`
       margin: auto 10%;
       position: relative;
       p {
-        font-size: 13.5px;
-        margin: 2% 23%;
+        font-size: 0.75em;
+        margin: auto 20%;
         color: #000;
         font-weight: 500;
       }

@@ -23,8 +23,8 @@ export const DivMenu = styled.div`
   @media (max-width: 720px) {
     z-index: 1;
     position: fixed;
-    left: 79%;
-    margin: 2% auto 0 auto;
+    right: 3%;
+    margin: 2% 0%;
     display: block;
     height: 12%;
     width: 20%;

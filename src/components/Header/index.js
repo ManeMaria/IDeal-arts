@@ -11,7 +11,7 @@ import {
 } from './styles';
 import Spiner from '../Spiner/index';
 import logoBlack from '../../assets/logos/ID-preto.png';
-import logoSCar from '../../assets/logos/logo-ID.png';
+// import logoSCar from '../../assets/logos/logo-ID.png';
 import MenuCheck from '../MenuCheck/index';
 import SlideShow from '../Slider/index';
 

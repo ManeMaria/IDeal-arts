@@ -5,7 +5,7 @@ import { Sections } from '../Header/styles';
 const Menu = styled.div`
   width: 65%;
   height: 65%;
-  margin: -20% 0 0 30%;
+  margin: auto 5.3% auto auto;
   position: relative;
 
   label {
@@ -32,13 +32,8 @@ const Menu = styled.div`
       transform: translate(0px, 2vh) rotate(45deg);
     }
     &:checked ~ nav {
-      width: 200px;
-      border: none;
-      background: #fff;
-      box-shadow: -5px 3px 10px rgba(0, 0, 0, 0.4);
-      a {
-        font-size: 20px;
-      }
+      transform: translateX(0px);
+      visibility: visible;
     }
   }
   span {
@@ -70,15 +65,23 @@ const Menu = styled.div`
   }
 
   nav {
+    transform: translateX(300px);
     z-index: 1;
     top: 55px;
     position: absolute;
-    right: -30px;
+    right: 0px;
     height: 80vh;
-    width: 0;
+    width: 300px;
     display: grid;
     overflow: hidden;
-    transition: width 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    background: #fff;
+    box-shadow: -5px 3px 10px rgba(0, 0, 0, 0.4);
+    visibility: hidden;
+    a {
+      font-size: 20px;
+    }
   }
 `;
 

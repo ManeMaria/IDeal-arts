@@ -21,7 +21,6 @@ function App() {
       <About />
       <NetworkSocial />
       {/** incluí esse comp diretamente, para não interferir no fluxo da página */}
-
       <Portfolio />
       <Footer />
     </Div>
